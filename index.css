@@ -17,26 +17,3 @@ body{
     height: 100vh;
     border: 0;
 }
-  /* Estilo personalizado para el contenedor de la imagen */
-  .image-container {
-    position: relative;
-    height: 100vh; /* Ajusta la altura al 100% de la ventana */
-    overflow: hidden;
-    text-align: center; /* Centra el contenido horizontalmente */
-  }
-
-  .image-container img {
-    width: 100vw; /* Ajusta la anchura al 100% de la ventana */
-    height: 100%; /* Ajusta la altura al 100% del contenedor */
-    object-fit: cover; /* Ajusta para cubrir toda la altura y anchura del contenedor */
-    filter: brightness(40%); /* Ajusta el valor según sea necesario para oscurecer la imagen */
-  }
-
-  .overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff; /* Color del texto */
-    text-align: center;
-  }

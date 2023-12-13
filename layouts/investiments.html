@@ -36,7 +36,8 @@
                         <a class="nav-link active text-white rounded" aria-current="page" href="#">Know us</a>
                     </li>
                     <li class="nav-link">
-                        <a class="nav-link active text-white  rounded" aria-current="page" href="#">Contact
+                        <a type="button" class="nav-link active text-white  rounded" aria-current="page"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal2">Contact
                             us</a>
                     </li>
                     <li class="nav-link">
@@ -51,12 +52,13 @@
     <!--Fin de navBar  container-fluid d-flex flex-column align-items-center justify-content-center text-center    -->
     <!-- Contenido -->
     <div class="container">
-        
+
         <div class="text-light" style="position: relative; text-align: center; overflow: hidden;">
             <img src="../assets/img_bienes_raices.jpg" class="img-fluid" alt="..."
                 style="width: 100%; height: auto; max-height: 150vh;">
-        
-            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: space-around; align-items: center; color: white;">
+
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: space-around; align-items: center; color: white;">
                 <div style="width: 30%; max-width: 300px;">
                     <h1 style="font-size: 1.5em;">Financial security</h1>
                     <img src="../assets/escudo.png" class="img-fluid"
@@ -78,19 +80,36 @@
                 </div>
             </div>
         </div>
-        
-        </div>
-        
-        </div>
-        
+
+    </div>
+
+    </div>
 
 
 
-        <br><br>
-        <!--Cards-->
-        <div class="container text-center">
-            <h1 class="text-black">Learn about some opportunities to invest</h1>
-            <br>
+
+    <br><br>
+    <!--Cards-->
+    <div class="container text-center">
+        <h1 class="text-black">Learn about some opportunities to invest</h1>
+        <br>
+        <div class="d-flex flex-wrap">
+            <div class="card mb-3" style="width: 18rem;">
+                <img src="../assets/casa-carrusel1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">3 story house</h5>
+                    <div class="d-flex align-items-center">
+                        <img src="../assets/pesos.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
+                        <p>$ 1,000 minimum invest</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="../assets/pesos.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
+                        <p>18.50% Fixed anual rate</p>
+                    </div>
+                    <a href="#" class="btn btn-outline-dark">Contact Us</a>
+                </div>
+            </div>
+
             <div class="d-flex flex-wrap">
                 <div class="card mb-3" style="width: 18rem;">
                     <img src="../assets/casa-carrusel1.jpg" class="card-img-top" alt="...">
@@ -131,90 +150,135 @@
                             <div class="card-body">
                                 <h5 class="card-title">3 story house</h5>
                                 <div class="d-flex align-items-center">
-                                    <img src="../assets/pesos.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
+                                    <img src="../assets/pesos.png" alt="Bootstrap" class="mx-2" width="32px"
+                                        height="32px">
                                     <p>$ 1,000 minimum invest</p>
                                 </div>
                                 <div class="d-flex align-items-center">
-                                    <img src="../assets/pesos.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
+                                    <img src="../assets/pesos.png" alt="Bootstrap" class="mx-2" width="32px"
+                                        height="32px">
                                     <p>18.50% Fixed anual rate</p>
                                 </div>
                                 <a href="#" class="btn btn-outline-dark">Contact Us</a>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="d-flex flex-wrap">
-                            <div class="card mb-3" style="width: 18rem;">
-                                <img src="../assets/casa-carrusel1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">3 story house</h5>
-                                    <div class="d-flex align-items-center">
-                                        <img src="../assets/pesos.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
-                                        <p>$ 1,000 minimum invest</p>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <img src="../assets/pesos.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
-                                        <p>18.50% Fixed anual rate</p>
-                                    </div>
-                                    <a href="#" class="btn btn-outline-dark">Contact Us</a>
-                                </div>
+                </div>
+                <!--Fin de los Cards-->
+
+            </div>
+            <!-- Fin de contenido -->
+            <!--FOOTER-->
+
+
+            <footer id="footer" class="pb-4 pt-4 text-light" style="background-image: url('assets/FLOTER.jpg');">
+                <div class="row text-center">
+                    <div class="col pb-2 pt-4">
+                        <img src="../assets/logo.png" class="rounded" alt="Logo" width="120px" height="120px">
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col pb-2 pt-4">
+                        <p>Copyright &copy; 2023 TLOVE Enterprise</p>
+
+                    </div>
+                </div>
+
+            </footer>
+            <!-- FIN DEL FOOTER -->
+
+
+            <!-- Modal 1 -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content bg-dark text-light">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div
+                            class="modal-body d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="mb-3">
+                                <img src="../assets/powerby.png" class="rounded" alt="logo" width="311px"
+                                    height="317px">
                             </div>
-            </div>
-
-        </div>
-        <!--Fin de los Cards-->
-
-    </div>
-    <!-- Fin de contenido -->
-    <!--FOOTER-->
-
-    
-    <footer id="footer" class="pb-4 pt-4 text-light" style="background-image: url('assets/FLOTER.jpg');">
-        <div class="row text-center">
-            <div class="col pb-2 pt-4">
-                <img src="../assets/logo.png" class="rounded" alt="Logo" width="120px" height="120px">
-            </div>
-        </div>
-
-        <div class="row text-center">
-            <div class="col pb-2 pt-4">
-                <p>Copyright &copy; 2023 TLOVE Enterprise</p>
-
-            </div>
-        </div>
-
-    </footer>
-    <!-- FIN DEL FOOTER -->
-
-
-    <!-- Modal 1 -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content bg-dark text-light">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex flex-column align-items-center justify-content-center text-center">
-                    <div class="mb-3">
-                        <img src="../assets/powerby.png" class="rounded" alt="logo" width="311px" height="317px">
+                            <h2>Power by Alexandra Aguilar</h2>
+                            <h3>(503) 930 - 5315 </h3>
+                            <div class="container align-items-center">
+                                <img src="../assets/facebook.png" alt="Bootstrap" class="mx-2">
+                                <img src="../assets/x.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
+                                <img src="../assets/imstagram.png" alt="Bootstrap" class="mx-2" width="32px"
+                                    height="32px">
+                            </div>
+                            <p>I am a woman who does her work with passion guided by professionalism and always willing
+                                to
+                                ensure that my clients obtain what best suits their needs.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
-                    <h2>Power by Alexandra Aguilar</h2>
-                    <h3>(503) 930 - 5315 </h3>
-                    <div class="container align-items-center">
-                        <img src="./assets/facebook.png" alt="Bootstrap" class="mx-2">
-                        <img src="./assets/x.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
-                        <img src="./assets/imstagram.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
-                    </div>
-                    <p>I am a woman who does her work with passion guided by professionalism and always willing to
-                        ensure that my clients obtain what best suits their needs.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Fin modal 1 -->
+            <!-- Fin modal 1 -->
+
+            <!-- Modal 2 -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"  aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content bg-dark text-light">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Contact us</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body d-flex align-items-start justify-content-center text-center">
+                            <!-- Sección de Redes Sociales a la izquierda -->
+                            <div class="social-media-section">
+                                <h3>Redes Sociales</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <img src="../assets/facebook.png" alt="Facebook" width="30">
+                                        <a href="#">Facebook</a>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <img src="../assets/x.png" alt="Twitter" width="30">
+                                        <a href="#">Twitter</a>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <img src="../assets/imstagram.png" alt="Instagram" width="30">
+                                        <a href="#">Instagram</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Sección de Formulario de Contacto a la derecha -->
+                            <div class="contact-form-section">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-primary mb-3">Send</button>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fin modal 2 -->
 
 </body>
 

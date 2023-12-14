@@ -21,3 +21,7 @@ body{
 .card {
     margin-right: 30px; /* Ajustar el valor según sea necesario */
 }
+
+body, html {
+    overflow-x: hidden;
+}

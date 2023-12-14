@@ -26,13 +26,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-link">
-                        <a class="nav-link active text-white  rounded" aria-current="page" href="#">Services</a>
+                        <a class="nav-link active text-white  rounded" aria-current="page"
+                            href="./layouts/services.html">Services</a>
                     </li>
                     <li class="nav-link">
-                        <a class="nav-link active text-white  rounded" aria-current="page" href="./layouts/investiments.html">Investments</a>
+                        <a class="nav-link active text-white  rounded" aria-current="page"
+                            href="./layouts/investiments.html">Investments</a>
                     </li>
                     <li class="nav-link">
-                        <a class="nav-link active text-white rounded" aria-current="page" href="./layouts/kwnow_us.html">Know us</a>
+                        <a class="nav-link active text-white rounded" aria-current="page"
+                            href="./layouts/kwnow_us.html">Know us</a>
                     </li>
                     <li class="nav-link">
                         <a type="button" class="nav-link active text-white  rounded" aria-current="page"
@@ -51,380 +54,416 @@
     <!--Fin de navBar  container-fluid d-flex flex-column align-items-center justify-content-center text-center    -->
 
     <!-- Contenido -->
-    <div class="container">
+    <div class="container text-center">
+        <img src="./assets/logo.png" alt="Bootstrap" class="img-fluid" style="max-width: 75%; height: auto; margin: 0 auto;">
+    </div>
+    
+    <br><br>
 
-        <!-- Apartado del logo y lema-->
-        <div class="row align-items-center text-light">
-            <div class="col-md-3">
-                <img src="./assets/logo.png" alt="Bootstrap" class="img-fluid mx-2">
+
+    <!-- Fin del apartado del logo y lema -->
+
+
+
+
+    <!-- Caruseles-->
+    <div class="container text-light">
+
+        <div class="row">
+            <div class="col-md-4">
+                <!--Carrusel 1-->
+                <div id="carouselExampleCaptions1" class="carousel slide" style="max-width: 500px; margin: auto;">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/casa-carrusel1.jpg" class="d-block w-100" alt="..."
+                                style="height: 300px; object-fit: cover;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/casa2-carrusel1.jpg" class="d-block w-100"
+                                alt="Error recurso no encontrada" style="height: 300px; object-fit: cover;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/casa3-carrusel1.jpg" class="d-block w-100"
+                                alt="Error recurso no encontrado" style="height: 300px; object-fit: cover;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--Fin carrusel 1-->
+
             </div>
-            <div class="col-md-9">
-                <h1 class="display-3 fw-bold">TLOVE ENTERPRISE</h1>
-                <br>
-                <h3 class="display-4">Guiding You Home with Love</h3>
+
+
+
+            <div class="col-md-4">
+                <!--Carrusel 2-->
+                <div id="carouselExampleCaptions2" class="carousel slide" style="max-width: 500px; margin: auto;">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/casa-carrusel1.jpg" class="d-block w-100" alt="..."
+                                style="height: 300px; object-fit: cover;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/casa2-carrusel1.jpg" class="d-block w-100"
+                                alt="Error recurso no encontrada" style="height: 300px; object-fit: cover;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/casa3-carrusel1.jpg" class="d-block w-100"
+                                alt="Error recurso no encontrado" style="height: 300px; object-fit: cover;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
+
+            <!--Fin Carrusel 2-->
+
+            <div class="col-md-4">
+                <!--Carrusel 3-->
+                <div id="carouselExampleCaptions3" class="carousel slide" style="max-width: 500px; margin: auto;">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/casa-carrusel1.jpg" class="d-block w-100" alt="..."
+                                style="height: 300px; object-fit: cover;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/casa2-carrusel1.jpg" class="d-block w-100"
+                                alt="Error recurso no encontrada" style="height: 300px; object-fit: cover;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/casa3-carrusel1.jpg" class="d-block w-100"
+                                alt="Error recurso no encontrado" style="height: 300px; object-fit: cover;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--fin Carrusel 3-->
+            </div>
+
+
+
         </div>
+        <!-- Fin de Caruseles-->
+
+        <!-- Video youtube -->
+        <!-- Video youtube -->
         <br><br>
-        <!-- Fin del apartado del logo y lema -->
-
-        <!-- Caruseles-->
-        <div class="container text-light">
-
+        <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <!--Carrusel 1-->
-                    <div id="carouselExampleCaptions1" class="carousel slide" style="max-width: 500px; margin: auto;">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/casa-carrusel1.jpg" class="d-block w-100" alt="..."
-                                    style="height: 300px; object-fit: cover;">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/casa2-carrusel1.jpg" class="d-block w-100"
-                                    alt="Error recurso no encontrada" style="height: 300px; object-fit: cover;">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/casa3-carrusel1.jpg" class="d-block w-100"
-                                    alt="Error recurso no encontrado" style="height: 300px; object-fit: cover;">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <!--Fin carrusel 1-->
-
+                <div class="col-md-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/L0kkAKLbK8c?si=ioer_F6pV0h8zDkZ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </div>
+                <div class="col-md-6">
+                    <h1>Mi Página con Video de YouTube</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos blanditiis repudiandae ipsa
+                        debitis, vitae consequatur consequuntur autem commodi minima culpa, tempore quaerat, sequi
+                        inventore id necessitatibus cum enim! Nesciunt, labore.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos blanditiis repudiandae ipsa
+                        debitis, vitae consequatur consequuntur autem commodi minima culpa, tempore quaerat, sequi
+                        inventore id necessitatibus cum enim! Nesciunt, labore.
+                    </p>
 
-
-
-                <div class="col-md-4">
-                    <!--Carrusel 2-->
-                    <div id="carouselExampleCaptions2" class="carousel slide" style="max-width: 500px; margin: auto;">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/casa-carrusel1.jpg" class="d-block w-100" alt="..."
-                                    style="height: 300px; object-fit: cover;">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/casa2-carrusel1.jpg" class="d-block w-100"
-                                    alt="Error recurso no encontrada" style="height: 300px; object-fit: cover;">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/casa3-carrusel1.jpg" class="d-block w-100"
-                                    alt="Error recurso no encontrado" style="height: 300px; object-fit: cover;">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-
-                <!--Fin Carrusel 2-->
-
-                <div class="col-md-4">
-                    <!--Carrusel 3-->
-                    <div id="carouselExampleCaptions3" class="carousel slide" style="max-width: 500px; margin: auto;">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/casa-carrusel1.jpg" class="d-block w-100" alt="..."
-                                    style="height: 300px; object-fit: cover;">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/casa2-carrusel1.jpg" class="d-block w-100"
-                                    alt="Error recurso no encontrada" style="height: 300px; object-fit: cover;">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/casa3-carrusel1.jpg" class="d-block w-100"
-                                    alt="Error recurso no encontrado" style="height: 300px; object-fit: cover;">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <!--fin Carrusel 3-->
-                </div>
-
-
-
-            </div>
-            <!-- Fin de Caruseles-->
-
-            <!-- Video youtube -->
-            <!-- Video youtube -->
-            <br><br>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/L0kkAKLbK8c?si=ioer_F6pV0h8zDkZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-6">
-                        <h1>Mi Página con Video de YouTube</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos blanditiis repudiandae ipsa debitis, vitae consequatur consequuntur autem commodi minima culpa, tempore quaerat, sequi inventore id necessitatibus cum enim! Nesciunt, labore.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos blanditiis repudiandae ipsa debitis, vitae consequatur consequuntur autem commodi minima culpa, tempore quaerat, sequi inventore id necessitatibus cum enim! Nesciunt, labore.
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
-            <!-- Fin video youtube -->
-
-            <!--Apartado our Team-->
-            <br><br>
-            <div class="container text-center">
-                <h1>Our Team</h1>
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis consequatur incidunt eos aspernatur maxime laboriosam cum labore harum provident voluptas veniam alias officia architecto, amet facilis excepturi iste consectetur accusamus?</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis consequatur incidunt eos aspernatur maxime laboriosam cum labore harum provident voluptas veniam alias officia architecto, amet facilis excepturi iste consectetur accusamus?</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis consequatur incidunt eos aspernatur maxime laboriosam cum labore harum provident voluptas veniam alias officia architecto, amet facilis excepturi iste consectetur accusamus?</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="assets/our_team_landing.png" class="rounded" alt="Logo">
-                    </div>
-                </div>
-            </div>
-            <!--FinApartado our Team-->
-
-            <br><br>
-            <!--Mapa-->
-            <div class="container">
-                <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14728.597357732546!2d-102.97809855000001!3d22.648219949999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1702340678689!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
-            <!--Mapa fin-->
-
-
-        </div>
-        <!-- Fin del Contenido -->
-
-
-        <!--FOOTER-->
-        <footer id="footer" class="pb-4 pt-4 text-light" style="background-image: url('assets/FLOTER.jpg');">
-            <div class="row text-center">
-                <div class="col pb-2 pt-4">
-                    <img src="assets/logo.png" class="rounded" alt="Logo" width="120px" height="120px">
-                </div>
-            </div>
-
-            <div class="row text-center">
-                <div class="col pb-2 pt-4">
-                    <p>Copyright &copy; 2023 TLOVE Enterprise</p>
-
-                </div>
-            </div>
-
-        </footer>
-        <!-- FIN DEL FOOTER -->
-
-        <!-- Modales -->
-        <!-- Modal 1 -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content bg-dark text-light">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="mb-3">
-                            <img src="./assets/powerby.png" class="rounded" alt="logo" width="311px" height="317px">
-                        </div>
-                        <h2>Power by Alexandra Aguilar</h2>
-                        <h3>(503) 930 - 5315 </h3>
-                        <div class="container align-items-center">
-                            <img src="./assets/facebook.png" alt="Bootstrap" class="mx-2">
-                            <img src="./assets/x.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
-                            <img src="./assets/imstagram.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
-                        </div>
-                        <p>I am a woman who does her work with passion guided by professionalism and always willing to
-                            ensure that my clients obtain what best suits their needs.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
                 </div>
             </div>
         </div>
-        <!-- Fin modal 1 -->
-        
-         <!-- Modal 2 -->
-         <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-         aria-hidden="true">
-         <div class="modal-dialog modal-dialog-centered modal-lg">
-             <div class="modal-content bg-light text-dark">
-                 <!-- Cambié bg-dark a bg-light y text-light a text-dark -->
-                 <div class="modal-header">
-                     <h1 class="modal-title fs-5" id="exampleModalLabel">Contact us</h1>
-                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                 </div>
-                 <div class="modal-body text-center">
-                     <div class="row">
-                         <!-- Sección de Redes Sociales a la izquierda -->
-                         <div class="col-md-6 mb-4">
-                             <div class="social-media-section">
-                                 <h3>Our information</h3>
-                                 <ul class="list-unstyled">
-                                     <li class="mb-3">
-                                         <img src="../assets/facebook.png" alt="Facebook" width="30">
-                                         <a href="https://www.facebook.com/TLOVE.enterprises"
-                                             class="text-decoration-none text-dark">/ TLOVE Enterprises LLC</a>
-                                     </li>
-                                     <li class="mb-3">
-                                         <img src="../assets/x_2.png" alt="Twitter" width="30">
-                                         <a href="#" class="text-decoration-none text-dark">/ Twitter</a>
-                                     </li>
-                                     <li class="mb-3">
-                                         <img src="../assets/imstagram2.png" alt="Instagram" width="30">
-                                         <a href="https://www.instagram.com/tlove.enterprises.llc/"
-                                             class="text-decoration-none text-dark">/ tlove.enterprises.llc</a>
-                                     </li>
-                                     <li class="mb-3">
-                                         <img src="../assets/correo.png" alt="Instagram" width="30">
-                                         <a class="text-decoration-none text-dark">/
-                                             tlove_enterprises_LLC@gmail.com</a>
-                                     </li>
-                                     <li class="mb-3">
-                                         <img src="../assets/whatsapp.png" alt="Instagram" width="30">
-                                         <a class="text-decoration-none text-dark">(888) 683-2595 & (971) 803-6846</a>
-                                     </li>
-                                     <li class="mb-3">
-                                         <img src="../assets/internet.png" alt="Instagram" width="30">
-                                         <a class="text-decoration-none text-dark" href="/">www.TLOVE Enterprises LLC.com</a>
-                                     </li>
-                                 </ul>
-                             </div>
-                         </div>
+        <!-- Fin video youtube -->
 
-                         <!-- Sección de Formulario de Contacto a la derecha -->
-                         <div class="col-md-6">
-                             <div class="contact-form-section">
-                                 <div class="mb-3">
-                                     <label for="exampleFormControlInput1" class="form-label">Your name</label>
-                                     <input type="text" class="form-control border-dark" id="exampleFormControlInput1"
-                                         placeholder="Raúl Ceballos">
-                                 </div>
+        <!--Apartado our Team-->
+        <br><br>
+        <div class="container text-center">
+            <h1>Our Team</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis consequatur incidunt eos
+                        aspernatur maxime laboriosam cum labore harum provident voluptas veniam alias officia
+                        architecto, amet facilis excepturi iste consectetur accusamus?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis consequatur incidunt eos
+                        aspernatur maxime laboriosam cum labore harum provident voluptas veniam alias officia
+                        architecto, amet facilis excepturi iste consectetur accusamus?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis consequatur incidunt eos
+                        aspernatur maxime laboriosam cum labore harum provident voluptas veniam alias officia
+                        architecto, amet facilis excepturi iste consectetur accusamus?</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/our_team_landing.png" class="rounded" alt="Logo">
+                </div>
+            </div>
+        </div>
+        <!--FinApartado our Team-->
 
-                                 <div class="mb-3">
-                                     <label for="exampleFormControlInput1" class="form-label">Email
-                                         address</label>
-                                     <input type="email" class="form-control border-dark" id="exampleFormControlInput1"
-                                         placeholder="name@example.com">
-                                 </div>
+        <br><br>
+        <!--Mapa-->
+        <div class="container">
+            <iframe class="map-iframe"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14728.597357732546!2d-102.97809855000001!3d22.648219949999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1702340678689!5m2!1ses-419!2smx"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
-                                 <div class="mb-3">
-                                     <label for="exampleFormControlInput1" class="form-label">Affair</label>
-                                     <input type="text" class="form-control border-dark" id="exampleFormControlInput1"
-                                         placeholder="name@example.com">
-                                 </div>
+        <!--Mapa fin-->
 
-                                 <div class="mb-3">
-                                     <label for="exampleFormControlTextarea1" class="form-label">Your message
-                                         (optional)</label>
-                                     <textarea class="form-control border-dark" id="exampleFormControlTextarea1"
-                                         rows="3"></textarea>
-                                 </div>
 
-                                 <div class="mb-3">
-                                     <button type="submit" class="btn btn-danger">Send</button>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="modal-footer align-items-center">
-                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                 </div>
-             </div>
-         </div>
-     </div>
-     <!-- Fin modal 2 -->
+    </div>
+    <!-- Fin del Contenido -->
+
+
+    <!--FOOTER-->
+    <footer id="footer" class="pb-4 pt-4 text-light"
+    style="background-image: url('assets/FLOTER.jpg'); background-size: cover;">
+
+
+    <div class="row text-center">
+        <div class="col pb-2 pt-4">
+            <img src="../assets/logo2.png" class="rounded" alt="Logo" width="400px" height="150px">
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col pb-2 pt-4">
+            <p> &copy; 2023 TLOVE Enterprises LLC. Founded in 2021.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a class="nav-link active text-white rounded" aria-current="page"
+                        href="./layouts/services.html">Services</a>
+                </div>
+                <div class="col">
+                    <a class="nav-link active text-white rounded" aria-current="page"
+                        href="./layouts/investiments.html">Investment</a>
+                </div>
+                <div class="col">
+                    <a class="nav-link active text-white rounded" aria-current="page"
+                        href="./layouts/kwnow_us.html">Know us</a>
+                </div>
+                <div class="col">
+                    <a type="button" class="nav-link active text-white " aria-current="page" href="#"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">Power by Alexandra Aguilar</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+<!-- FIN DEL FOOTER -->
+
+    <!-- Modales -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column align-items-center justify-content-center text-center">
+                    <div class="mb-3">
+                        <img src="./assets/powerby.png" class="rounded" alt="logo" width="311px" height="317px">
+                    </div>
+                    <h2>Power by Alexandra Aguilar</h2>
+                    <h3>(503) 930 - 5315 </h3>
+                    <div class="container align-items-center">
+                        <img src="./assets/facebook.png" alt="Bootstrap" class="mx-2">
+                        <img src="./assets/x.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
+                        <img src="./assets/imstagram.png" alt="Bootstrap" class="mx-2" width="32px" height="32px">
+                    </div>
+                    <p>I am a woman who does her work with passion guided by professionalism and always willing to
+                        ensure that my clients obtain what best suits their needs.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin modal 1 -->
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-light text-dark">
+                <!-- Cambié bg-dark a bg-light y text-light a text-dark -->
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Contact us</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="row">
+                        <!-- Sección de Redes Sociales a la izquierda -->
+                        <div class="col-md-6 mb-4">
+                            <div class="social-media-section">
+                                <h3>Our information</h3>
+                                <ul class="list-unstyled">
+                                    <li class="mb-3">
+                                        <img src="../assets/facebook.png" alt="Facebook" width="30">
+                                        <a href="https://www.facebook.com/TLOVE.enterprises"
+                                            class="text-decoration-none text-dark">/ TLOVE Enterprises LLC</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <img src="../assets/x_2.png" alt="Twitter" width="30">
+                                        <a href="#" class="text-decoration-none text-dark">/ Twitter</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <img src="../assets/imstagram2.png" alt="Instagram" width="30">
+                                        <a href="https://www.instagram.com/tlove.enterprises.llc/"
+                                            class="text-decoration-none text-dark">/ tlove.enterprises.llc</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <img src="../assets/correo.png" alt="Instagram" width="30">
+                                        <a class="text-decoration-none text-dark">/
+                                            tlove_enterprises_LLC@gmail.com</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <img src="../assets/whatsapp.png" alt="Instagram" width="30">
+                                        <a class="text-decoration-none text-dark">(888) 683-2595 & (971)
+                                            803-6846</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <img src="../assets/internet.png" alt="Instagram" width="30">
+                                        <a class="text-decoration-none text-dark" href="/">www.TLOVE Enterprises
+                                            LLC.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Sección de Formulario de Contacto a la derecha -->
+                        <div class="col-md-6">
+                            <div class="contact-form-section">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Your name</label>
+                                    <input type="text" class="form-control border-dark" id="exampleFormControlInput1"
+                                        placeholder="Raúl Ceballos">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email
+                                        address</label>
+                                    <input type="email" class="form-control border-dark" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Affair</label>
+                                    <input type="text" class="form-control border-dark" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Your message
+                                        (optional)</label>
+                                    <textarea class="form-control border-dark" id="exampleFormControlTextarea1"
+                                        rows="3"></textarea>
+                                </div>
+
+                                <div class="mb-3">
+                                    <button type="submit" class="btn btn-danger">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer align-items-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin modal 2 -->
 
     </div>
 

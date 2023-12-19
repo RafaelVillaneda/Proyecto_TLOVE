@@ -10,6 +10,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <title>TLOVE Enterprise</title>
 </head>
 
@@ -43,6 +44,10 @@
                             us</a>
                     </li>
                     <li class="nav-link">
+                        <div id="google_translate_element" class="google"></div>
+                    </li>
+                    
+                    <li class="nav-link">
                         <a type="button" class="nav-link active text-white bg-dark rounded" aria-current="page" href="#"
                             data-bs-toggle="modal" data-bs-target="#exampleModal">Power by Alexandra Aguilar</a>
                     </li>
@@ -54,6 +59,7 @@
     <!--Fin de navBar  container-fluid d-flex flex-column align-items-center justify-content-center text-center    -->
 
     <!-- Contenido -->
+    <div id="google_translate_element" class="google"></div>
     <div class="container text-center">
         <img src="./assets/logo.png" alt="Bootstrap" class="img-fluid" style="max-width: 75%; height: auto; margin: 0 auto;">
     </div>
@@ -435,6 +441,12 @@
 
 
 </body>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es,ca,eu,gl,en,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+            }
+</script>
 
 
 </html>

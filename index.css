@@ -5,6 +5,10 @@ body{
     font-family: 'Readex Pro Bold', sans-serif;
     background-color: gray;
 }
+a {
+    text-decoration: none;
+}
+
 
 @font-face {
     font-family: 'Readex Pro Bold';

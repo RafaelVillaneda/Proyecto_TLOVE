@@ -43,3 +43,33 @@ body, html {
     background-color: rgba(0, 0, 0, 0.5);
     /* Color oscuro semi-transparente */
 }
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+
+.texto_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta el color de fondo del texto aquí */
+    color: white; /* Ajusta el color del texto aquí */
+    padding: 20px; /* Ajusta el espaciado interior del texto aquí */
+}
+
+.text-overlay h5,
+.text-overlay p {
+    margin: 0;
+}

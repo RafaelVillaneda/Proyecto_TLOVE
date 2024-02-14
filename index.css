@@ -73,3 +73,43 @@ body, html {
 .text-overlay p {
     margin: 0;
 }
+
+
+.texto_img p {
+    max-width: 80%;
+    margin: auto;
+    font-size: 1rem; /* Tamaño de fuente base */
+}
+
+@media (min-width: 576px) {
+    .texto_img p {
+        font-size: 1.1rem; /* Ajusta el tamaño de fuente en pantallas más grandes */
+    }
+}
+
+@media (min-width: 768px) {
+    .texto_img p {
+        font-size: 1.2rem; /* Ajusta el tamaño de fuente en pantallas medianas */
+    }
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+ /* Estilo para el botón */
+ .magia {
+    background-image: url('./assets/Fondo.png'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el botón */
+    color: white; /* Color del texto */
+    border: none; /* Quita el borde */
+    padding: 10px 20px; /* Ajusta el relleno del botón */
+    font-size: 16px; /* Tamaño de fuente */
+        width: 1240px; /* Ancho del botón */
+        height: 400px; /* Altura del botón */
+}
+
+.magia{
+    /* Estilo cuando el mouse está encima del botón */
+    opacity: 0.8; /* Opacidad reducida */
+}

@@ -81,17 +81,13 @@ body, html {
     font-size: 1rem; /* Tamaño de fuente base */
 }
 
-@media (min-width: 576px) {
-    .texto_img p {
-        font-size: 1.1rem; /* Ajusta el tamaño de fuente en pantallas más grandes */
+@media (min-width: 577px) {
+    .texto_img h5, .texto_img p {
+        font-size: 1.1rem; /* Tamaño predeterminado del texto para pantallas medianas y grandes */
     }
 }
 
-@media (min-width: 768px) {
-    .texto_img p {
-        font-size: 1.2rem; /* Ajusta el tamaño de fuente en pantallas medianas */
-    }
-}
+
 
 img.img-fluid {
     max-width: 100%;
